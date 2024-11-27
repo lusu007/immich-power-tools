@@ -52,7 +52,7 @@ export default function PotentialAlbums() {
       .catch(() => {
         toast({
           title: "Error",
-          description: "Failed to add assets album",
+          description: "Failed to add assets album (change text)",
           variant: "destructive",
         });
       });
